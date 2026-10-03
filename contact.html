@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Cohort 9</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+    <header class="bg-blue-600 p-4 text-white">
+        <div class="mx-auto flex max-w-4xl flex-col items-center justify-between md:flex-row">
+            <a href="homepage.html" class="mb-4 text-3xl font-bold md:mb-0">cohort 9</a>
+            <nav class="flex gap-4" aria-label="Main navigation">
+                <a href="homepage.html" class="text-xl hover:text-gray-200">Home</a>
+                <a href="about.html" class="text-xl hover:text-gray-200">About</a>
+                <a href="contact.html" aria-current="page" class="text-xl text-blue-100 underline underline-offset-4">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="bg-gradient-to-r from-blue-500 to-blue-700 p-8 text-center text-white md:p-16">
+        <div class="mx-auto max-w-4xl">
+            <p class="mb-3 text-sm font-semibold uppercase tracking-widest text-blue-100">Contact</p>
+            <h1 class="mb-4 text-3xl font-bold md:text-4xl lg:text-5xl">Let’s talk about learning</h1>
+            <p class="mx-auto max-w-2xl text-base md:text-lg">Questions about our responsive design lessons? Send a note to Cohort 9.</p>
+        </div>
+    </section>
+
+    <main class="mx-auto grid max-w-6xl grid-cols-1 gap-10 p-4 py-10 md:grid-cols-2 md:p-8 md:py-14">
+        <section>
+            <h2 class="mb-3 text-2xl font-bold text-gray-800 md:text-3xl">Send us a message</h2>
+            <p class="mb-8 text-gray-600">Fill out the form and we’ll be glad to hear from you.</p>
+            <form action="#" method="get" class="space-y-5">
+                <div>
+                    <label for="name" class="mb-2 block font-semibold text-gray-700">Name</label>
+                    <input id="name" name="name" type="text" autocomplete="name" required class="w-full rounded border border-gray-300 px-4 py-3 outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-200">
+                </div>
+                <div>
+                    <label for="email" class="mb-2 block font-semibold text-gray-700">Email</label>
+                    <input id="email" name="email" type="email" autocomplete="email" required class="w-full rounded border border-gray-300 px-4 py-3 outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-200">
+                </div>
+                <div>
+                    <label for="message" class="mb-2 block font-semibold text-gray-700">Message</label>
+                    <textarea id="message" name="message" rows="5" required class="w-full resize-y rounded border border-gray-300 px-4 py-3 outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-200"></textarea>
+                </div>
+                <button type="submit" class="rounded bg-blue-600 px-6 py-3 font-bold text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Send message</button>
+                <p class="text-sm text-gray-500">This sample form is front-end only and is not connected to a message service.</p>
+            </form>
+        </section>
+
+        <aside class="border-t border-gray-200 pt-8 md:border-l md:border-t-0 md:pl-10 md:pt-0">
+            <h2 class="mb-6 text-2xl font-bold text-gray-800">Cohort 9</h2>
+            <div class="mb-8 border-l-4 border-green-500 bg-gray-50 p-5">
+                <h3 class="mb-2 font-bold text-green-700">What we can help with</h3>
+                <p class="text-gray-700">Questions about Tailwind utilities, responsive breakpoints, or the exercises on this site.</p>
+            </div>
+            <div class="space-y-5">
+                <div>
+                    <h3 class="font-semibold text-gray-800">Email</h3>
+                    <p class="text-gray-600">Use the message form and include your reply address.</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-800">Learning together</h3>
+                    <p class="text-gray-600">Share what you’re working on and where you got stuck.</p>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="mt-8 bg-gray-800 px-4 py-6 text-center text-sm text-gray-300">
+        <p>&copy; 2026 Cohort 9. Learning responsive design with Tailwind CSS.</p>
+    </footer>
+</body>
+</html>

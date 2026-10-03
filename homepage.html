@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Responsive Design</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>  
+  <header class="bg-blue-600 text-white p-4">
+    <div  class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center">
+        <h1 class="text-3xl font-bold mb-4 md:mb-0">cohort 9</h1>
+        <nav class="flex gap-4">
+            <a href="homepage.html" class="hover:text-gray-200 text-xl">Home</a>
+            <a href="about.html" class="hover:text-gray-200 text-xl">About</a>
+            <a href="contact.html" class="hover:text-gray-200 text-xl">Contact</a>
+        </nav>
+    </div>
+  </header>  
+    <section 
+    class="bg-gradient-to-r from-blue-500 to-blue-700 text-white p-8 md:p-16
+    text-center"
+    >
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Welcome to tailwind CSS</h2>
+            <p class="text-base md:text-lg mb-6">Learn responsive design with utility-first css in one class</p>
+            <button class="bg-white text-blue-600 px-6 py-3 rounded font-bold hover:bg-gray-100">Get started</button>
+        </div>
+    </section>
+    <main 
+    class="max-w-6xl mx-auto p-4 md:p-8">
+<h2 class="text-2xl md:text-3xl font-bold mb-6 text-gray-800">What we'll learn
+    today
+</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+    <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+        <h4 class="text-xl font-bold text-green-600 mb-2">Utility classes</h4>
+        <p class="text-gray-700">tailwind provides pre-made classes for styling without writing  custom CSS</p>
+    </div>
+
+        <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+        <h4  class="text-xl font-bold text-purple-600 mb-2">Responsive design</h4>
+        <p class="text-gray-700">makes your page work on all screen sizes with breakpoint prefixes.</p>
+    </div>
+
+        <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+        <h4  class="text-xl font-bold text-amber-600 mb-2">mobile first</h4>
+        <p class="text-gray-700">design for mobile first, then add styles for larger screens.</p>
+    </div>
+</div>
+<section class="mb-12">
+<h3 class="text-2xl font-bold mb-6 text-gray-600">Responsive Design</h3>
+<div class="bg-gray-100 p-4 md:p-6 rounded mb-6">
+    <h4 class="font-bold text-lg mb-3">Text size changes by screen</h4>
+    <p class="text-sm md:text-base lg:text-lg text-gray-700">This text is small on  mobile, medium on tablets and large on desktops, Try resizing your browser to see the change...</p>
+</div>
+<div class="bg-gray-800 p-4 md:p-6 rounded mb-6">
+    <h4 class="font-semibold text-lg mb-3 text-white">Layout changes</h4>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+    <div class="bg-blue-200 p-4 text-center font-bold">item 1</div>
+    <div class="bg-green-200 p-4 text-center font-bold">item 2</div>
+    <div class="bg-red-200 p-4 text-center font-bold">item 3</div>
+    <div class="bg-yellow-200 p-4 text-center font-bold">item 4</div>
+</div>
+<p class="text-sm text-gray-400 mt-3">
+    1 column on mobile,  2 on tablet and 4 on desktop
+</p>
+</div>
+</section>
+    </main>
+    <footer class="mt-8 bg-gray-800 px-4 py-6 text-center text-sm text-gray-300">
+        <p>&copy; 2026 Cohort 9. Learning responsive design with Tailwind CSS.</p>
+    </footer>
+</body>
+</html>
